@@ -10,6 +10,9 @@ document.querySelector('#app').innerHTML = `
     </p>
     <p>Scroll to Discover the Project</p>
   </div>
+  <section class="canvas-section">
+    <canvas id="canvas"></canvas>
+  </section>
 `
 
 gsap.from('.hero h1', {
@@ -29,5 +32,3 @@ gsap.from('.hero p', {
   stagger: 0.2,
   delay: 0.3
 })
-
-setupCounter(document.querySelector('#counter'))
