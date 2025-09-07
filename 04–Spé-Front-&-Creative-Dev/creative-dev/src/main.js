@@ -1,5 +1,8 @@
 import './style.css'
 import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
 
 document.querySelector('#app').innerHTML = `
   <div class="hero">
@@ -11,7 +14,8 @@ document.querySelector('#app').innerHTML = `
     <p>Scroll to Discover the Project</p>
   </div>
   <section class="canvas-section">
-    <canvas id="canvas"></canvas>
+      <canvas id="canvas-regular"></canvas>
+      <canvas id="canvas-wireframe"></canvas>
   </section>
 `
 
@@ -31,4 +35,16 @@ gsap.from('.hero p', {
   ease: 'power3.out',
   stagger: 0.2,
   delay: 0.3
+})
+
+gsap.from('.canvas-section', {
+  opacity: 0,
+  filter: "blur(20px)",
+  duration: 1,
+  ease: 'power3.out',
+  scrollTrigger: {
+    trigger: '.canvas-section',
+    start: 'top center',
+    toggleActions: 'play none none none'
+  }
 })
