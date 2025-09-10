@@ -32,11 +32,20 @@ A Vite + Three.js + GSAP project built as a recovery assignment for the course *
 ### 1. Clone the repository:  
    ```bash
    git clone https://github.com/Pierrooooo/m2-rattrapages-caillet-pierre
-   cd 04–Spé-Front-&-Creative-Dev creative-dev
+   ```
+   ```bash
+   cd 04–Spé-Front-&-Creative-Dev
+   ```
+   ```bash
+   cd creative-dev
    ```
 
+
 ### 2. Install dependencies:
+    
     npm install
+  
+   Or
 
     pnpm install
     
@@ -44,6 +53,8 @@ A Vite + Three.js + GSAP project built as a recovery assignment for the course *
 ### 3. Start the development server:
     
     npm run dev
+   
+   Or
 
     pnpm run dev
     
