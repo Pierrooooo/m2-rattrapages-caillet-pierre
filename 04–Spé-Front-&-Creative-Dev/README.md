@@ -13,6 +13,12 @@ A Vite + Three.js + GSAP project built as a recovery assignment for the course *
 
 ---
 
+## 🚀 Loom Link
+
+- **[Loom Link](https://www.loom.com/share/106b8618284d49a0b3bc48fb2a5ca9c0?sid=d375bf15-7603-43a8-8afb-1cefe1295f2e/)** – Avideo that explains how works the project (threejs and updateClipPath)
+
+---
+
 ## 🛠️ Technologies Used
 
 - **[Three.js](https://threejs.org/)** – 3D rendering engine for WebGL.
