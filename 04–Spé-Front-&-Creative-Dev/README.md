@@ -42,19 +42,11 @@ A Vite + Three.js + GSAP project built as a recovery assignment for the course *
 
 
 ### 2. Install dependencies:
-    
-    npm install
-  
-   Or
 
     pnpm install
     
 
 ### 3. Start the development server:
-    
-    npm run dev
-   
-   Or
 
     pnpm run dev
     
